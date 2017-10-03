@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FriendFinder</title>
+
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome Glyphicons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Chosen -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.jquery.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+        <div class="jumbotron">
+		    <h1>Friend Finder Questions</h1>
+		</div>
+
+        <!-- START: INFO GIVEN BY THE USER -->
+		<h3><strong>About You</strong></h3>
+		<h4>Name</h4>
+		<input type="text" name="" id="name" class="form-control" required >
+
+		<h4>Photo Image Link</h4>
+		<input type="text" name="" id="photo" class="form-control" required >
+        <!-- END: INFO GIVEN BY THE USER -->
+		<hr>
+
+        <!-- START: SURVEY -->
+		<h3><strong>Question 1</strong></h3>
+		<h4>You like being in hot and sunny weather.</h4>
+	 	<select class="chosen-select" id="q1">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 2</strong></h3>
+		<h4>You prefer to be in dark and quiet, albeit creepy, places.</h4>
+	 	<select class="chosen-select" id="q2">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 3</strong></h3>
+		<h4>You enjoy relaxing at the beach.</h4>
+	 	<select class="chosen-select" id="q3">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 4</strong></h3>
+		<h4>You consider yourself being a friendly individual.</h4>
+	 	<select class="chosen-select" id="q4">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 5</strong></h3>
+		<h4>You would rather be alone than with other people.</h4>
+	 	<select class="chosen-select" id="q5">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 6</strong></h3>
+		<h4>You believe that you are a legend.</h4>
+	 	<select class="chosen-select" id="q6">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 7</strong></h3>
+		<h4>You empathize with other people easily.</h4>
+	 	<select class="chosen-select" id="q7">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 8</strong></h3>
+		<h4>You think friendship is very important (especially if you want to evolve)!</h4>
+	 	<select class="chosen-select" id="q8">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 9</strong></h3>
+		<h4>Electricity doesn't affect you very much.</h4>
+	 	<select class="chosen-select" id="q9">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+		<h3><strong>Question 10</strong></h3>
+		<h4>You tend to avoid Pokemon who are too dangerous.</h4>
+	 	<select class="chosen-select" id="q10">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        <!-- END: SURVEY -->
+
+		<br>
+		<br>
+
+		<!-- SUBMIT BUTTON -->
+        <button type="submit" class="btn btn-primary btn-lg" id="submit">Submit</button>
+
+         <!-- HOME BUTTON -->
+        <a href="/"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-home"></span>  Go home</button></a>
+
+        <hr>
+        
+	    <footer class="footer">
+	      <div class="container">
+		        <p><a href="/api/friends">API Friends List</a></p>
+	      </div>
+	    </footer>
+
+	</div>
+
+	<!-- MODAL -->
+	<div id="resultsModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- MODAL CONTENT-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+	      </div>
+	      <div class="modal-body">
+	        <h2 id="matchName"></h2>
+	        <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+  <script type="text/javascript">
+
+  	// Open: Chosen CSS Configuration
+    var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:true},
+      '.chosen-select-no-single' : {disable_search_threshold:10},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    };
+    // Close: Chosen CSS Configuration
+
+    // Open: Function for what happens when you click submit
+    $("#submit").on("click", function(){
+
+    	// Open: Form validation
+    	function validateForm() {
+		  var isValid = true;
+		  $('.form-control').each(function() {
+		    if ( $(this).val() === '' )
+		        isValid = false;
+		  });
+
+		  $('.chosen-select').each(function() {
+
+		  	if( $(this).val() === "")
+		  		isValid = false
+		  })
+		  return isValid;
+		}; // Close: Form validation
+
+		// Open: If all forms needing validation is true
+		if (validateForm() == true)
+		{
+			// Open: Object with user info is created. Info is taken from input fields
+	    	var userInfo = {
+	    		name: $("#name").val(),
+	    		photo: $("#photo").val(),
+                scores: [$("#q1").val(), 
+                         $("#q2").val(),
+                         $("#q3").val(), 
+                         $("#q4").val(), 
+                         $("#q5").val(), 
+                         $("#q6").val(), 
+                         $("#q7").val(), 
+                         $("#q8").val(), 
+                         $("#q9").val(), 
+                         $("#q10").val()]
+	    	}; // Close: Object with user info is created. Info is taken from input field
+
+	    	// Open: AJAX Post to friends api
+	    	$.post("/api/friends", userInfo, function(res){
+
+                // display best match name
+                // console.log(res.image);
+	    		$("#matchName").text(res.name);
+	    		$('#matchImg').attr("src", res.image);
+
+		    	// Show the modal with the best match 
+		    	$("#resultsModal").modal('toggle');
+
+	    	}); // Close: AJAX Post to friends api
+		}
+		else
+		{   
+            // Need to fill out all all fields
+            alert("Make sure all fields are filled out!");
+            
+		} //Close: If all forms needing validation is true
+    	
+    	return false;
+    });
+
+
+  </script>
+
+</body>
+</html>

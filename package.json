@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "An app to help individuals find a compatible friend!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinyHime/FriendFinder.git"
+  },
+  "author": "Cassandra Claire Villaruel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShinyHime/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ShinyHime/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
+}
