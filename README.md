@@ -12,7 +12,7 @@ The Home and Survey pages were created using HTML and Bootstrap. In the Survey p
 Back End: 
 The back end is composed of a node/express server that stores results from the users as objects within a friends array. This is also where logic was implemented to compare data between users, and where the html routing was created. 
 
-Live site: 
+Live site: https://friend-finder101.herokuapp.com/
 
 ## How the Website Works Works 
 
